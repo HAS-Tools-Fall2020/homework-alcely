@@ -16,12 +16,8 @@ For this week I followed the next steps:
 #### Assignment questions
 
 1. Describe the variables `flow`, `year`, `month`, and `day`. What type of objects are they, what are they composed of, and how long are they?
-| Variable | Type |  composed of |  length |
-| ------------- |-------------| -------------| -------------|
-| flow      | List | float | 11578 |
-| year     | List     |  integer |11578 |
-| month | List     |   integer |11578 |
-| day | List     |   integer|11578 |
+
+**The four variables are *list*, with a length of *11578*. `year`, `month`, and `day` are composed of integers and `flow` is composed of floats.**
 
 2. How many times was the daily flow greater than your prediction in the month of September (express your answer in terms of the total number of times and as a percentage)?
 
