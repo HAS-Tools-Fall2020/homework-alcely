@@ -22,12 +22,6 @@ For this week I followed the next steps:
 2. How many times was the daily flow greater than your prediction in the month of September (express your answer in terms of the total number of times and as a percentage)?
 
   **Times that the daily flow is greater than my week 1 forecast = 870,  in percentage = 7.51%**
-<<<<<<< HEAD
-  
-=======
-
-
->>>>>>> master
 3. How would your answer to the previous question change if you considered only daily flows in or before 2000? Same question for the flows in or after the year 2010? (again report total number of times and percentage)
 | years | number of time |  percentage |
 | ------------- |-------------:| -------------:|
@@ -38,10 +32,10 @@ For this week I followed the next steps:
   **Summary of the first half of September: Min = 36.6
 , Max = 1280.0
 , Mean = 178.8383647798742
-, Standard desviation = 171.2679315493717**
+, Standard deviation = 171.2679315493717**
 
   **Summary of the second half of September
 : Min = 51.2
 , Max = 5590.0
 , Mean = 169.8541935483871
-, Standard desviation = 371.9750870786179**
+, Standard deviation = 371.9750870786179**
