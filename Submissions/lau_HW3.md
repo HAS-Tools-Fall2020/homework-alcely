@@ -22,7 +22,12 @@ For this week I followed the next steps:
 2. How many times was the daily flow greater than your prediction in the month of September (express your answer in terms of the total number of times and as a percentage)?
 
   **Times that the daily flow is greater than my week 1 forecast = 870,  in percentage = 7.51%**
+<<<<<<< HEAD
   
+=======
+
+
+>>>>>>> master
 3. How would your answer to the previous question change if you considered only daily flows in or before 2000? Same question for the flows in or after the year 2010? (again report total number of times and percentage)
 | years | number of time |  percentage |
 | ------------- |-------------:| -------------:|
