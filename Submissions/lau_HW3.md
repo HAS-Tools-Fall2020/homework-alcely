@@ -3,6 +3,15 @@
 
 **Date: 09/13/2020**
 
+---------
+# Grade
+
+3/3 - Great job! Also nice work adding a table to your markdown file.
+
+One note: I didn't take off points this time, but next time include your py file into this folder per the submission instructions.
+
+---
+
 #### Assignment summary
 
 This year **2020** the streamflow behavior of Verde River has broken record. It established a new weekly average streamflow minimum. I would not recommend to use only the historical streamflow data for a forecast. However, that is what we have, for now. So, I did an educated guess playing with python.
