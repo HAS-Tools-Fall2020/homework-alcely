@@ -3,7 +3,10 @@
 
 **Date: 09/20/2020**
 
-
+___
+### Grade
+3/3 - Great Job, really nice write up!  Next time maybe use the Atom plug in for your graphics though that way I can  see them in atom and not just online. 
+___
 
 #### Forecast summary
 
