@@ -111,7 +111,7 @@ print("The average daily flows on the first half of September is:", half1, \
         "cfs , in contrast, on the second half of September is:", half2, "cfs.")
 
 # %% 
-# Here start my HW3 code.
+# Here start my HW4 code.
 # Step1: Grabbing out the data from the last 3 weeks.
 
 flow_last3week = np.array(flow_data[-21:,:])
