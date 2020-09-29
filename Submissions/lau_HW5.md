@@ -3,7 +3,9 @@
 
 **Date: 09/27/2020**
 ___
-
+## Grade
+3/3 - Great job. Nice tables and nice coding!
+___
 #### Forecast summary
 This river makes me worry about its extremely low flows.
 
