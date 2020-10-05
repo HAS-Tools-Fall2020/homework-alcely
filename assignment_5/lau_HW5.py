@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # %%
 # ** MODIFY **
 # Set the file name and path to where you have stored the data
-filename = 'streamflow_week5.txt'
+filename = 'streamflow_week6.txt'
 filepath = os.path.join('C:/Users/alcel/Documents/GitHub/2020FA_CodingSkills/homework-alcely/data', filename)
 print(os.getcwd())
 print(filepath)
