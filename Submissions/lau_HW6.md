@@ -2,6 +2,9 @@
 **Name: Alcely Lau**
 
 **Date: 10/04/2020**
+____
+### Grade
+3/3 - Great Job! I really like your graphs. 
 ___
 #### Table of Contents:
 1. [ Forecast summary](#forecast)
