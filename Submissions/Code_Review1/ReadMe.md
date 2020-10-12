@@ -41,12 +41,12 @@ ___
 <a name="forecast"></a>
 #### Flow Forecasts
 **Using Autoregressive Model**:
-- Week1: *(insert value)*
-- Week2: *(insert value)*
+- Week1: 59.7
+- Week2: 59.8
 
 **Using My_brain Model**:
-- Week1: *(insert value)*
-- Week2: *(insert value)*
+- Week1: 61.8
+- Week2: 60.6
 
 ___
 <a name="Review"></a>
@@ -58,25 +58,25 @@ ___
  - Can you run the script on your own easily?
  - Are the doc-strings useful?
 
-*(insert comments)*
+I was able to easily run this script on the first try following Alcely's direcitons. Even though the script was long, the comments describing each cell made it easier to navigate. Also, the doc-string for your function really helped me to understand what it was doing.
 
-**Score:** *(insert value)*
+**Score:** 3
 
 **2. Does the code follow PEP8 style consistently?**
  - If not are there specific instances where the script diverges from this style?
 
-*(insert comments)*
+Formatting is consistent as are indents. Linter shows no issues.
 
-**Score:** *(insert value)*
+**Score:** 3
 
 **3. Is the code written succinctly and efficiently?**
  - Are there superfluous code sections?
  - Is the use of functions appropriate?
  - Is the code written elegantly without decreasing readability?
 
-*(insert comments)*
+The code is written well and functions are used appropriately in a way that decreases the total amount of lines necessary.  The only section that might be considered superfluous was the optional plotting section.
 
-**Score:** *(insert value)*
+**Score:** 3
 
 ___
 #### Rubric
