@@ -2,6 +2,17 @@
 **Name: Alcely Lau**
 
 **Date: 10/19/2020**
+
+#### Grade 
+ - 6/6  Great  job!
+ - Readability: 3
+ - Style: 3 
+ - Code: 3
+
+ - Really excellent job with the comments!
+ - Great job separating out all of the things that could be defined as variables. 
+
+
 ___
 #### Table of Contents:
 

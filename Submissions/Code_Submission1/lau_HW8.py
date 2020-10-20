@@ -13,6 +13,7 @@ import datetime
 # %%
 # Define a function to grab the data by years
 
+# LC - I like the different contingencies you ahve figured out here!
 
 def grab_by_year(dataframe, year_col, value_col, year_start=None,
                  year_end=None):
@@ -154,7 +155,9 @@ test = grab_by_year(flow_weekly, col_names[0], col_names[1:3], year_start=2019)
 # Looking for a better adjusment of the AR model, lets set a
 # Maximun Value Flow (mvf) to consider in the model
 # MODIFY mvf:
-mvf = 98
+mvf = 98 
+# LC I like how you identify all the parameters to be modified. 
+# One good practice is to put all of these in the top  of your script. 
 
 train = train[(train['flow'] <= mvf)][col_names[1:3]]
 test = test[(test['flow'] <= mvf)][col_names[1:3]]
@@ -191,6 +194,7 @@ initial_flow = flow_weekly['flow'].tail(1)
 number_weeks = 2
 armodel = []
 
+# lC - Great use of a while statement!
 i = 0
 while i < number_weeks:
     AR_prediction = model.intercept_ + model.coef_ * initial_flow
