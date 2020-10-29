@@ -2,7 +2,9 @@
 **Name: Alcely Lau**
 
 **Date: 10/26/2020**
-
+____
+### Grade
+3/3 - Great work! Thanks for including a map too, very nice. 
 ___
 #### Table of Contents:
 1. [ Forecast summary](#forecast)
@@ -28,7 +30,7 @@ For this week I followed the next steps:
 2.   For the forecast I applied the historical flow data for the interested weeks, multiplied by a correction factor.
 
   `week_forecast = week_data.quantile(0.6)*factor`
-  
+
 ____
 <a name="assignment"></a>
 #### Assignment questions
