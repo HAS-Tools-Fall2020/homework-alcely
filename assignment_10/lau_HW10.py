@@ -12,11 +12,11 @@ import datetime
 # USGS URL for the flow data:
 site = '09506000'
 start = '1989-01-01'
-end = '2020-10-31'
+end = '2020-11-14'
 
 # Vairables for my brainmodel:
 m = 10         # Insert month (m)
-fd = 1         # Insert first day (fd) of the week / or 2 last weeks
+fd = 15         # Insert first day (fd) of the week / or 2 last weeks
 ed = 31        # Insert end day (ed) of the week / or 2 last weeks
 
 # %%
@@ -149,7 +149,7 @@ print("correction factor", round(factor[0], 2))
 
 # %%
 # Finally! Lets do our predictions using the function brainmodel.
-weeks2 = brainmodel(data, 1, 1, 2, factor)
+weeks2 = brainmodel(data, 11, 15, 2, factor)
 print("My forecast entries for the week 1 & 2")
 print(weeks2)
 print()

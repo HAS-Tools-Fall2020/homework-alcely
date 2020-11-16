@@ -203,7 +203,7 @@ rain_weekly = data_NOAA.resample("W-SAT").mean()
 # MODIFY col_names:
 # Names of the columns to grab from the flow_weekly dataframe.
 # In this particular case, I used flow and flow_tm1.
-col_names1 = ['year', 'flow', 'flow_tm1']
+col_names1 = ['year', 'flow']
 
 train_flow = grab_by_year(flow_weekly, col_names1[0], col_names1[1:3],
                           year_start=2017, year_end=2018)
