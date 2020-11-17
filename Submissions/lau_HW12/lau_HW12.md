@@ -3,6 +3,9 @@
 **Name: Alcely Lau**
 
 **Date: 11/16/2020**
+
+### Grade
+3/3 - Great work. Your graphs are really great! Also I like the additional dataset you used. I hope you would be willing to share your example  in class?
 ___
 #### Table of Contents:
 1. [ Forecast summary](#forecast)
