@@ -107,26 +107,24 @@ for i in range(1, 9):
 
 # Selecting a training period
 datei = '2020-08'
-datef = '2020-10'
+datef = '2020-11'
 x1 = tmp_weekly[datei:datef][tmp_name].values
 y_x2 = flow_weekly[datei:datef][flow_name].values
 
 
 # %%
-# NOTE: Run for 1 & 2 weeks
+# NOTE: Run for 1 & 2 weeks and to estimate a correction factor
 # -------------------------
 ix1 = tmp_weekly[tmp_name].tail(1).values
 ix2 = flow_weekly[flow_name[1:len(flow_name)]].tail(1).values
-weeks = 2
-factor = 1
+weeks = 3
 
 # %%
 # NOTE: Run for 16 weeks
 # -------------------------
 ix1 = tmp_weekly.loc[['2020-10-17']][tmp_name].values
 ix2 = flow_weekly.loc[['2020-08-22']][flow_name[1:len(flow_name)]].values
-weeks = 16
-factor = 0.72
+weeks = 17
 
 # %%
 # Regression Model
@@ -139,7 +137,7 @@ j = 1
 for i in range(weeks):
     initial_xval = np.concatenate((ix2, ix1), axis=1)
     pred = np.absolute(R_Model(x, y, initial_xval).round(2))
-    week_pred.insert(i, 'Week %s' % (i+1), pred)
+    week_pred.insert(i, 'Week %s' % (i), pred)
     ix2 = np.delete(ix2, -j, axis=1)
     ix2 = np.concatenate((ix2, pred.reshape(-1, 1)), axis=1)
     j += 1
@@ -148,13 +146,20 @@ for i in range(weeks):
 
 print('Without correction factor', week_pred.T)
 
-if weeks == 2:
-    week2 = (week_pred * factor).round(2).T
-    print('With correction factor', week2)
+print('Week 0 is for calibration with the last week flow:',
+      flow_weekly.flow.tail(1).round(2).values[0])
 
-if weeks == 16:
+if weeks == 3:
+    # Not sure about this factor
+    factor = flow_weekly.flow.tail(1).round(2).values[0] / week_pred['Week 0'].values[0]
+    week2 = (week_pred * factor).round(2).T
+    print('correction factor', factor, 'predictions', week2)
+
+if weeks == 17:
     week16 = (week_pred * factor).round(2).T
     print('With correction factor', week16)
+
+
 
 # %%
 # Section 6: Line Plot

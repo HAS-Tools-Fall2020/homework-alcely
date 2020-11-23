@@ -15,9 +15,9 @@ start = '1989-01-01'
 end = '2020-11-14'
 
 # Vairables for my brainmodel:
-m = 10         # Insert month (m)
-fd = 15         # Insert first day (fd) of the week / or 2 last weeks
-ed = 31        # Insert end day (ed) of the week / or 2 last weeks
+m = 11         # Insert month (m)
+fd = 1        # Insert first day (fd) of the week / or 2 last weeks
+ed = 14        # Insert end day (ed) of the week / or 2 last weeks
 
 # %%
 # Define a function to grab the data by years
