@@ -121,8 +121,8 @@ sns.regplot(x=mymodel.loc[1:current_week]['hist_data'].values,
             y=mymodel.loc[1:current_week]['data_2020'].values,
             line_kws={"color": "r", "alpha": 0.7, "lw": 2})
 ax.set(title="Observed Flow 2020 -vs- Historical Mean Flow",
-       ylabel="Weekly Avg Flow [cfs]",
-       xlabel="Weekly Avg Flow [cfs]")
+       ylabel="Observed Flow 2020 [cfs]",
+       xlabel="Historical Mean Flow [cfs]")
 
 fig.savefig("plot_scatter.png")
 
