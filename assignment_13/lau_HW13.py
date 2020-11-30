@@ -13,12 +13,12 @@ import contextily as ctx
 
 # %%
 # Section 2: Modify the following variables
-current_week = 13
+current_week = 14
 
 # USGS URL for the flow data:
 site = '09506000'
 start = '1989-01-01'
-end = '2020-11-21'
+end = '2020-11-28'
 
 # %%
 # Section 3: Download the flow data directly from the USGS website.
@@ -69,7 +69,7 @@ mymodel['factors'] = (mymodel.data_2020.values /
 
 # Step 4.6: Brain model for 16 weeks
 mymodel['forecasts16'] = (mymodel['hist_data'].values *
-                          mymodel['factors'][11:current_week].mean()
+                          mymodel['factors'][10:current_week].mean()
                           ).round(2)
 
 # Step 4.7: Regressive model for 16 weeks
