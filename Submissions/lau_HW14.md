@@ -4,6 +4,8 @@
 
 **Date: 11/30/2020**
 
+## Grade
+3/3 - nice work.
 ___
 #### Table of Contents:
 1. [ Forecast summary](#forecast)
