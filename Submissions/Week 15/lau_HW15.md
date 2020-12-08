@@ -3,6 +3,12 @@
 **Name: Alcely Lau**
 
 **Date: 12/07/2020**
+
+### Grade
+3/3 - Nice work! Good questions. The quick answers are that:
+-  you can put your pbs script wherever makes the most sense to you.
+- Yes google co-lab is very easy. We will discuss more tomorrow.
+- Best practice is to have your code save checkpoints so you can pick up where you leave off rather than starting all over. 
 ___
 #### Table of Contents:
 1. [ Forecast summary](#forecast)
